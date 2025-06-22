@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    background-color:rgb(209, 201, 201);
+    height: auto;
+    padding: 20px;
+    height: 500vh;
+}
+
+.home{
+
+}
+
+.navbar{
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo{
+    width: 80px;
+    
+
+}
+
+.icon{
+    padding-top: 1px;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    padding-left: 39px;
+}
+
+.menu{
+
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 270px;
+    padding-top: 10px;
+}
+
+.menu ul li{
+
+}
+
+.menu ul li a{
+    text-decoration: white;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: orange;
+}
+
+.searchcart{
+    display: flex;
+    gap: 15px;
+    margin-left: 200px;
+    padding-top: 10px;
+}
+
+.searchcart a{
+    text-decoration: none;
+}
+
+.searchcart a:hover{
+    color: orange;
+}
+
+.homecontents{
+    padding-top: 100px;
+    gap: 10px;
+    padding-left: 40px;
+    background-image: url(/images/image4.jpg);
+    background-size: cover;
+    height: 68vh;
+}
+
+.homecontents h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.homecontents p{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.homecontents button{
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.homecontents button:hover{
+    background-color: white;
+}
+
+.aboutus{
+
+}
+
+.aboutus h1{
+    padding-left: 530px;
+    margin-bottom: 15px;
+}
+
+.imgtext{
+    display: flex;
+}
+
